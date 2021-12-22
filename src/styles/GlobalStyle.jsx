@@ -26,7 +26,10 @@ const GlobalStyle = createGlobalStyle`
 
     body{
         background-color: var(--background-dark-color);
+        color: var(--white-color);
     }
+
 `;
+
 
 export default GlobalStyle;
