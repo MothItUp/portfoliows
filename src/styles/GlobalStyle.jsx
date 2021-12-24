@@ -22,6 +22,12 @@ const GlobalStyle = createGlobalStyle`
         box-sizing: border-box;
         list-style: none;
         text-decoration: none;
+        -ms-overflow-style: none;  /* Internet Explorer 10+ */
+        scrollbar-width: none;  /* Firefox */
+    }
+
+    ::-webkit-scrollbar {
+        display: none;
     }
 
     body{

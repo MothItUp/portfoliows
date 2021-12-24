@@ -37,12 +37,13 @@ const NavigationStyled = styled.nav `
     justify-content: space-between;
     img{
         height: 50px;
-        margin-left: 2rem;
+        margin-left: 1rem;
     }
     .nav-items {
         display: flex;
         .nav-item {
             padding: 1rem;
+            font-size: 1.2rem;
         }
     }
 `;
@@ -53,7 +54,7 @@ const LinkStyled = styled(Link) `
     transition: text-decoration-color 600ms;
     &:hover,
     &:focus {
-        text-decoration: underline 0.2rem rgba(255,92,104,1);
+        text-decoration: underline 0.2rem var(--white-color);
     }
 `;
 
