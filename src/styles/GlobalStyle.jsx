@@ -24,7 +24,9 @@ const GlobalStyle = createGlobalStyle`
         text-decoration: none;
         -ms-overflow-style: none;  /* Internet Explorer 10+ */
         scrollbar-width: none;  /* Firefox */
+        scroll-behavior: smooth;
     }
+     
 
     ::-webkit-scrollbar {
         display: none;

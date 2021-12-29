@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 export default function Contact() {
     return (
-        <ContactStyled>
+        <ContactStyled id='contact'>
             
         </ContactStyled>
     )
@@ -11,6 +11,6 @@ export default function Contact() {
 
 const ContactStyled = styled.nav `
     width: 100%;
-    height: 1200px;
+    height: 100vh;
     background-color: green;
 `;

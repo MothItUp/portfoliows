@@ -8,20 +8,21 @@ import Contact from '../components/Contact';
 import GlobalStyle from '../styles/GlobalStyle';
 
 const IndexPage = () => {
-    return (
-      <IndexStyled>
-        <GlobalStyle />
-        <Topbar />
-        <Hero />
-        <Skills />
-        <Contact />
-        <Socials />
-      </IndexStyled>
-    )
-  }
+  return (
+    <IndexStyled>
+      <GlobalStyle />
+      <Topbar />
+      <Hero />
+      <Skills/>
+      <Contact />
+      <Socials />
+    </IndexStyled>
+  )
+}
 
 const IndexStyled = styled.div`
   background-color: red;
 `;
 
-  export default IndexPage
+export default IndexPage;
+

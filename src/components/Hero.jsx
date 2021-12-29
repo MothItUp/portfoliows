@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 export default function Hero() {
     return (
-        <HeroStyled>
+        <HeroStyled id='home'>
             
         </HeroStyled>
     )
@@ -11,6 +11,6 @@ export default function Hero() {
 
 const HeroStyled = styled.nav `
     width: 100%;
-    height: 1200px;
+    height: 100vh;
     background-color: orange;
 `;
